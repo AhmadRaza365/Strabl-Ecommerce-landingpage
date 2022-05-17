@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <nav className="bg-dark-gray flex justify-between px-10  md:px-5 py-2 md:justify-around items-center">
+      <nav className="bg-dark-gray flex justify-between px-10  md:px-0 py-2 md:justify-around items-center">
         <img src={logo} className="w-36" alt="logo" />
         <ul className="hidden md:flex gap-4   text-white text-2xl">
           <li className="underline underline-offset-8 decoration-primary-red cursor-pointer">
@@ -33,7 +33,7 @@ export default function Header() {
       </nav>
       <ul
         className={` absolute right-36 top-20 px-6 py-3 rounded-lg text-dark-gray bg-white ransition-all duration-200 ease-in ${
-          open ? "right-36 top-20 opacity-100" : "opacity-0"
+          open ? " opacity-100" : " right-36 -top-96 opacity-0"
         }`}
         onClick={() => setOpen(!open)}
       >
