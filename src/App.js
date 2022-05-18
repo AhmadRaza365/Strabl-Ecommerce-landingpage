@@ -12,7 +12,7 @@ import RentalProguctsSection from "./components/RentalProguctsSection";
 import ReviewCard from "./components/ReviewCard";
 import FeaturedCard from "./components/FeaturedCard";
 import PromotionCTA from "./components/PromotionCTA";
-
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -173,6 +173,7 @@ function App() {
         </section>
       </div>
       <PromotionCTA />
+      <Footer />
     </div>
   );
 }
