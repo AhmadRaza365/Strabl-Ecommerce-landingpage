@@ -11,6 +11,10 @@ import landscape from "./images/landscape.jpg";
 import RentalProguctsSection from "./components/RentalProguctsSection";
 import ReviewCard from "./components/ReviewCard";
 import FeaturedCard from "./components/FeaturedCard";
+import PromotionCTA from "./components/PromotionCTA";
+
+
+
 function App() {
   return (
     <div className="bg-white">
@@ -168,6 +172,7 @@ function App() {
           <FeaturedCard />
         </section>
       </div>
+      <PromotionCTA />
     </div>
   );
 }
