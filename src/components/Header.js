@@ -32,8 +32,8 @@ export default function Header() {
         </div>
       </nav>
       <ul
-        className={` absolute right-36 top-20 px-6 py-3 rounded-lg text-dark-gray bg-white ransition-all duration-200 ease-in ${
-          open ? " opacity-100" : " right-36 -top-96 opacity-0"
+        className={` absolute right-10 md:right-36 top-36 md:top-20 px-6 py-3 rounded-lg text-dark-gray bg-white ransition-all duration-200 ease-in ${
+          open ? " opacity-100" : "right-10 md:right-36  -top-96 opacity-0"
         }`}
         onClick={() => setOpen(!open)}
       >
