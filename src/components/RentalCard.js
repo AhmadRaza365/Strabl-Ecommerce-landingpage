@@ -6,7 +6,7 @@ export default function RentalCard() {
   return (
     <div className="max-w-[300px] rounded-lg  shadow-xl">
       <img
-        className="w-full aspect-video object-cover object-center"
+        className="w-full aspect-video object-cover rounded-t-lg object-center"
         src="https://images.unsplash.com/photo-1563103123-52778b7410ac?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
         alt=""
       />

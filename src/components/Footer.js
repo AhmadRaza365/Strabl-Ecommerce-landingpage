@@ -12,7 +12,7 @@ export default function Footer() {
     <footer className="flex flex-wrap p-4 gap-4 justify-evenly">
       <div className="p-2 md:p-5 flex flex-col justify-between">
         <img src={Logo} alt="logo" />
-        <div className="flex gap-2 my-4">
+        <div className="flex gap-2 justify-center my-4">
           <div className="p-1 w-fit border-dark-gray border-[1px] rounded-full flex justify-center items-center">
             <FaFacebookF className="text-2xl" />
           </div>

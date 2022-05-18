@@ -134,7 +134,7 @@ function App() {
               <p className="text-2xl rounded-md my-2">Future Product</p>
             </div>
             <img
-              className="w-full aspect-square"
+              className="w-full rounded-md aspect-square"
               src="https://images.unsplash.com/photo-1589810635657-232948472d98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
               alt="Women Fashion"
             />
